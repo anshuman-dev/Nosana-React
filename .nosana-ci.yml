@@ -1,10 +1,7 @@
 global:
   image: registry.hub.docker.com/library/node:16
 
-trigger:
-  push:
-    branches:
-      - main
+
 
 jobs:
   - name: install
