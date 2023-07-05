@@ -10,13 +10,3 @@ jobs:
   - name: install
     commands:
       - npm ci
-
-  - name: build
-    commands:
-      - npm run build
-    resources:
-      - name: node_modules
-        path: ./node_modules/
-    artifacts:
-      - name: build
-        path: ./build/
